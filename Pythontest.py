@@ -1,3 +1,2 @@
-print("Hello")
-print("Hi")
-print("hai")
+for x in range (2):
+    print ('Hachimi')
