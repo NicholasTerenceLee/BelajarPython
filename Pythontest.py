@@ -1,4 +1,6 @@
 for x in range (5):
-    print ('Hello')
+    print ('Mambo')
     for y in range (1):
-        print('Hi')
+        print('Hachimi')
+        for z in range (1):
+            print ("WEI!")
