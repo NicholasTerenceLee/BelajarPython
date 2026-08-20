@@ -1,6 +1,6 @@
-name = "Nicholas"
-age = "17"
-height = 1.75
-x = True
+coin = str(input("Did you find the coin? "))
 
-print(type(age))
+if (coin=="found"):
+    print('I found it!')
+else:
+    print("I haven't found it")
