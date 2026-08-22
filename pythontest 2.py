@@ -1,6 +1,4 @@
-coin = str(input("Did you find the coin? "))
-
-if (coin=="found"):
-    print('I found it!')
-else:
-    print("I haven't found it")
+for x in range(3):
+    for y in range(3):
+        print(y)
+    print(x)
