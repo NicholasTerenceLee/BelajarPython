@@ -5,7 +5,8 @@ while x != 123:
     if x!=123:
         print('Try again')
     else:
-        print('Nice')
+        print('Login Successful')
+        print('Welcome')
     
 
 
