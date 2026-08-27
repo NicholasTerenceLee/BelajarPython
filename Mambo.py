@@ -40,10 +40,10 @@ while p != 'N':
     elif(p=='y'):
          continue
 
-    elif(p!='N' and p!='y'):
-             print("We'll take that as a no")
-             print('Thank you for Uma-ing with us')
-             break
+    else:
+         print("We'll take that as a no")
+         print('Thank you for Uma-ing with us')
+         break
     
 print('Mambo')
 print('Hachimi')
