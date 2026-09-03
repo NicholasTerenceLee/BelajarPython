@@ -1,14 +1,14 @@
 def ciggs():
-     x = float(input("How much? : "))
-     x2 = x* 25000
-     return x, x2
+    x = int(input("How much? : "))
+    x2 = float(x* 25000)
+    return x, x2
 def ber():
-    y = float(input("How much? : "))
-    y2 = y* 10000
+    y = int(input("How much? : "))
+    y2 = float(y* 10000)
     return y, y2
 def light():
-    z = float(input("How much? : "))
-    z2 = z * 15000
+    z = int(input("How much? : "))
+    z2 = float(z * 15000)
     return z, z2
 
 shops = {
@@ -72,7 +72,7 @@ if z == 0:
 
 print("Here's the list of items you bought : ")
 for key, value in shops.items():
-    print(key , "   ---   Quantity : ", value) 
+    print(key , "   ---    Quantity : ", value) 
 print(f"Your total price is : Rp  {price}")
 
 
