@@ -28,6 +28,10 @@ def triangle(base, height, side):
     return luas, keliling
 list = ['Square', 'Rectangle', 'Triangle']
 st.title("2D Shapes Calculator")
+
+if st.button("BALLOOOOONS! (Beware of LAG!)"):
+    BALLOONS()
+
 shape = st.selectbox("Choose a shape : " , list)
 
 if shape == "Square":
@@ -36,6 +40,7 @@ if shape == "Square":
         luas, keliling = square(side)
         st.success(f"Area of Square : {luas}")
         st.info(f"Circumference of Square : {keliling}")
+        st.balloons()
 
 if shape == "Rectangle":
     length = st.number_input("Size of Length : ", min_value=0)
@@ -44,6 +49,8 @@ if shape == "Rectangle":
         luas, keliling = rectangle(length, width)
         st.success(f"Area of Rectangle : {luas}")
         st.info(f"Circumference of Rectangle : {keliling}")
+        st.balloons()
+
 
 if shape == "Triangle":
     base = st.number_input("Size of Base : ", min_value=0)
@@ -53,3 +60,4 @@ if shape == "Triangle":
         luas, keliling = triangle(base, height, side)
         st.success(f"Area of Triangle : {luas}")
         st.info(f"Circumference of Triangle : {keliling}")
+        st.balloons()
