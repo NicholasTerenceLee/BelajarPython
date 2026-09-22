@@ -1,12 +1,18 @@
-x = 10
-
+import time as t
+import sys
+x=5
 print ("Rocket Launching in : ")
-while x > 0:
-    print (x)
+
+for i in range (5):
+    t.sleep(1)
+    print(x)
     x -= 1
 
     if x == 0:
-        print('Launch Off')
+        comt = "GOOOOOOOOOOOOOOOOOOOOOOOON"
+        for char in comt:
+            t.sleep(0.025)
+            sys.stdout.write(char)
 
 
    
